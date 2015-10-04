@@ -14,6 +14,14 @@
 
 @implementation ViewController
 
+
+-(IBAction)Button:(id)sender{
+    
+    RandomValue = arc4random() %11;
+    DisplayRandomValue.text = [NSString stringWithFormat:@"%i", RandomValue];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
