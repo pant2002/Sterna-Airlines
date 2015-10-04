@@ -16,15 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dci-Fb-1fy">
-                                <rect key="frame" x="20" y="236" width="89" height="48"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="7"/>
-                                <connections>
-                                    <action selector="Number7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zPb-qK-T6Q"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKM-2l-bgE">
                                 <rect key="frame" x="176" y="236" width="88" height="48"/>
                                 <animations/>
@@ -151,13 +142,6 @@
                                     <action selector="Equals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FS6-ic-ceG"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lU6-Uu-be2">
-                                <rect key="frame" x="20" y="15" width="560" height="184"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="120"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFm-yb-3BO">
                                 <rect key="frame" x="491" y="460" width="89" height="48"/>
                                 <animations/>
@@ -165,6 +149,22 @@
                                 <state key="normal" title="+"/>
                                 <connections>
                                     <action selector="Add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jLQ-Xj-0YG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lU6-Uu-be2">
+                                <rect key="frame" x="20" y="15" width="560" height="184"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="120"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dci-Fb-1fy">
+                                <rect key="frame" x="20" y="236" width="89" height="48"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="Number7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zPb-qK-T6Q"/>
                                 </connections>
                             </button>
                         </subviews>
