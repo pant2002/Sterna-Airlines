@@ -104,36 +104,157 @@
 }
 -(IBAction)Times:(id)sender{
     
+    if (RunningTotal == 0) {
+        
+        RunningTotal = SelectNumber;
+    }
     
+    else{
+        switch (Method) {
+            case 1:
+                RunningTotal = RunningTotal * SelectNumber;
+                break;
+            case 2:
+                RunningTotal = RunningTotal / SelectNumber;
+                break;
+            case 3: RunningTotal = RunningTotal - SelectNumber;
+                break;
+            case 4:
+                RunningTotal = RunningTotal + SelectNumber;
+                break;
+            default:
+                break;
+        }
+    }
     
     
     Method = 1;
     
     
+    SelectNumber = 0;
     
     
     
 }
 -(IBAction)Divide:(id)sender{
+
+    if (RunningTotal == 0) {
+        
+        RunningTotal = SelectNumber;
+    }
+    
+    else{
+        switch (Method) {
+            case 1:
+                RunningTotal = RunningTotal * SelectNumber;
+                break;
+            case 2:
+                RunningTotal = RunningTotal / SelectNumber;
+                break;
+            case 3: RunningTotal = RunningTotal - SelectNumber;
+                break;
+            case 4:
+                RunningTotal = RunningTotal + SelectNumber;
+                break;
+            default:
+                break;
+        }
+    }
+
     
     Method = 2;
-    
+    SelectNumber = 0;
     
 }
 -(IBAction)Add:(id)sender{
     
-    Method = 4;
+    if (RunningTotal == 0) {
+        
+        RunningTotal = SelectNumber;
+    }
     
+    else{
+        switch (Method) {
+            case 1:
+                RunningTotal = RunningTotal * SelectNumber;
+                break;
+            case 2:
+                RunningTotal = RunningTotal / SelectNumber;
+                break;
+            case 3: RunningTotal = RunningTotal - SelectNumber;
+                break;
+            case 4:
+                RunningTotal = RunningTotal + SelectNumber;
+                break;
+            default:
+                break;
+        }
+    }
+
+    
+    
+    
+    Method = 4;
+    SelectNumber = 0;
     
 }
 -(IBAction)Subtract:(id)sender{
+    if (RunningTotal == 0) {
+        
+        RunningTotal = SelectNumber;
+    }
+    
+    else{
+        switch (Method) {
+            case 1:
+                RunningTotal = RunningTotal * SelectNumber;
+                break;
+            case 2:
+                RunningTotal = RunningTotal / SelectNumber;
+                break;
+            case 3: RunningTotal = RunningTotal - SelectNumber;
+                break;
+            case 4:
+                RunningTotal = RunningTotal + SelectNumber;
+                break;
+            default:
+                break;
+        }
+    }
+
+    
+    
     
     
     Method = 3;
-    
+    SelectNumber = 0;
 }
 -(IBAction)Equals:(id)sender{
+    if (RunningTotal == 0) {
+        
+        RunningTotal = SelectNumber;
+    }
     
+    else{
+        switch (Method) {
+            case 1:
+                RunningTotal = RunningTotal * SelectNumber;
+                break;
+            case 2:
+                RunningTotal = RunningTotal / SelectNumber;
+                break;
+            case 3: RunningTotal = RunningTotal - SelectNumber;
+                break;
+            case 4:
+                RunningTotal = RunningTotal + SelectNumber;
+                break;
+            default:
+                break;
+        }
+    }
+    Method = 0;
+    SelectNumber = 0;
+    Screen.text = [NSString stringWithFormat:@"%.2f", RunningTotal];
     
 }
 -(IBAction)AllClear:(id)sender{
