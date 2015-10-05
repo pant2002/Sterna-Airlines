@@ -15,7 +15,7 @@
 @implementation ViewController
 
 -(IBAction)Up:(id)sender{
-    NumberCount = NumberCount + 1;
+    NumberCount = NumberCount + 21;
     CounterDisplay.text = [NSString stringWithFormat:@"%i", NumberCount];
 }
 -(IBAction)Down:(id)sender{
