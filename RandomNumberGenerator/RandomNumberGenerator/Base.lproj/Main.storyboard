@@ -3,7 +3,11 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B17c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
 =======
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B22c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<<<<<<< HEAD
 >>>>>>> pant2002/master
+=======
+>>>>>>> ca934a0a6b1314b08c21278b57f149cce6be3d9d
+>>>>>>> pant2002-master
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
@@ -47,7 +51,11 @@
                                 <rect key="frame" x="119" y="28" width="362" height="146"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
+<<<<<<< HEAD
 >>>>>>> pant2002/master
+=======
+>>>>>>> ca934a0a6b1314b08c21278b57f149cce6be3d9d
+>>>>>>> pant2002-master
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -60,7 +68,11 @@
                         <outlet property="DisplayRandomValue" destination="TYI-ay-OSk" id="6Mo-xD-IXL"/>
 =======
                         <outlet property="DisplayRandomValue" destination="tcI-BB-Yz9" id="uJn-f8-Dl5"/>
+<<<<<<< HEAD
 >>>>>>> pant2002/master
+=======
+>>>>>>> ca934a0a6b1314b08c21278b57f149cce6be3d9d
+>>>>>>> pant2002-master
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -69,7 +81,11 @@
             <point key="canvasLocation" x="327" y="263"/>
 =======
             <point key="canvasLocation" x="459" y="369"/>
+<<<<<<< HEAD
 >>>>>>> pant2002/master
+=======
+>>>>>>> ca934a0a6b1314b08c21278b57f149cce6be3d9d
+>>>>>>> pant2002-master
         </scene>
     </scenes>
 </document>

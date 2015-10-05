@@ -30,7 +30,11 @@
 }
 
 
+<<<<<<< HEAD
 >>>>>>> pant2002/master
+=======
+>>>>>>> ca934a0a6b1314b08c21278b57f149cce6be3d9d
+>>>>>>> pant2002-master
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
