@@ -8,7 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+int RandomValue;
+
 @interface ViewController : UIViewController
+{
+
+    IBOutlet UILabel *DisplayRandomValue;
+
+}
+- (IBAction)Button:(id)sender;
+
+
 
 
 @end
