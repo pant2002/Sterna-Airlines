@@ -20,6 +20,14 @@ int RandomValue;
 
 
 
+{
+    
+    IBOutlet UILabel *DisplayRandomValue;
+    
+}
+
+-(IBAction)Button:(id)sender;
+
 
 @end
 

@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		128313631BC1BB3400B55886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 128313621BC1BB3400B55886 /* main.m */; };
+		128313661BC1BB3400B55886 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 128313651BC1BB3400B55886 /* AppDelegate.m */; };
+		128313691BC1BB3400B55886 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128313681BC1BB3400B55886 /* ViewController.m */; };
+		1283136C1BC1BB3400B55886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1283136A1BC1BB3400B55886 /* Main.storyboard */; };
+		1283136E1BC1BB3400B55886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1283136D1BC1BB3400B55886 /* Assets.xcassets */; };
+		128313711BC1BB3400B55886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1283136F1BC1BB3400B55886 /* LaunchScreen.storyboard */; };
+		1283137C1BC1BB3400B55886 /* NumberCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1283137B1BC1BB3400B55886 /* NumberCounterTests.m */; };
+		128313871BC1BB3400B55886 /* NumberCounterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 128313861BC1BB3400B55886 /* NumberCounterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		128313781BC1BB3400B55886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128313561BC1BB3400B55886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1283135D1BC1BB3400B55886;
+			remoteInfo = NumberCounter;
+		};
+		128313831BC1BB3400B55886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128313561BC1BB3400B55886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1283135D1BC1BB3400B55886;
+			remoteInfo = NumberCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1283135E1BC1BB3400B55886 /* NumberCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		128313621BC1BB3400B55886 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		128313641BC1BB3400B55886 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		128313651BC1BB3400B55886 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		128313671BC1BB3400B55886 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		128313681BC1BB3400B55886 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1283136B1BC1BB3400B55886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1283136D1BC1BB3400B55886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		128313701BC1BB3400B55886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		128313721BC1BB3400B55886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128313771BC1BB3400B55886 /* NumberCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1283137B1BC1BB3400B55886 /* NumberCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberCounterTests.m; sourceTree = "<group>"; };
+		1283137D1BC1BB3400B55886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128313821BC1BB3400B55886 /* NumberCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128313861BC1BB3400B55886 /* NumberCounterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberCounterUITests.m; sourceTree = "<group>"; };
+		128313881BC1BB3400B55886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1283135B1BC1BB3400B55886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128313741BC1BB3400B55886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1283137F1BC1BB3400B55886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		128313551BC1BB3400B55886 = {
+			isa = PBXGroup;
+			children = (
+				128313601BC1BB3400B55886 /* NumberCounter */,
+				1283137A1BC1BB3400B55886 /* NumberCounterTests */,
+				128313851BC1BB3400B55886 /* NumberCounterUITests */,
+				1283135F1BC1BB3400B55886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1283135F1BC1BB3400B55886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1283135E1BC1BB3400B55886 /* NumberCounter.app */,
+				128313771BC1BB3400B55886 /* NumberCounterTests.xctest */,
+				128313821BC1BB3400B55886 /* NumberCounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		128313601BC1BB3400B55886 /* NumberCounter */ = {
+			isa = PBXGroup;
+			children = (
+				128313641BC1BB3400B55886 /* AppDelegate.h */,
+				128313651BC1BB3400B55886 /* AppDelegate.m */,
+				128313671BC1BB3400B55886 /* ViewController.h */,
+				128313681BC1BB3400B55886 /* ViewController.m */,
+				1283136A1BC1BB3400B55886 /* Main.storyboard */,
+				1283136D1BC1BB3400B55886 /* Assets.xcassets */,
+				1283136F1BC1BB3400B55886 /* LaunchScreen.storyboard */,
+				128313721BC1BB3400B55886 /* Info.plist */,
+				128313611BC1BB3400B55886 /* Supporting Files */,
+			);
+			path = NumberCounter;
+			sourceTree = "<group>";
+		};
+		128313611BC1BB3400B55886 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				128313621BC1BB3400B55886 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1283137A1BC1BB3400B55886 /* NumberCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				1283137B1BC1BB3400B55886 /* NumberCounterTests.m */,
+				1283137D1BC1BB3400B55886 /* Info.plist */,
+			);
+			path = NumberCounterTests;
+			sourceTree = "<group>";
+		};
+		128313851BC1BB3400B55886 /* NumberCounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				128313861BC1BB3400B55886 /* NumberCounterUITests.m */,
+				128313881BC1BB3400B55886 /* Info.plist */,
+			);
+			path = NumberCounterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1283135D1BC1BB3400B55886 /* NumberCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1283138B1BC1BB3400B55886 /* Build configuration list for PBXNativeTarget "NumberCounter" */;
+			buildPhases = (
+				1283135A1BC1BB3400B55886 /* Sources */,
+				1283135B1BC1BB3400B55886 /* Frameworks */,
+				1283135C1BC1BB3400B55886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberCounter;
+			productName = NumberCounter;
+			productReference = 1283135E1BC1BB3400B55886 /* NumberCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		128313761BC1BB3400B55886 /* NumberCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1283138E1BC1BB3400B55886 /* Build configuration list for PBXNativeTarget "NumberCounterTests" */;
+			buildPhases = (
+				128313731BC1BB3400B55886 /* Sources */,
+				128313741BC1BB3400B55886 /* Frameworks */,
+				128313751BC1BB3400B55886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128313791BC1BB3400B55886 /* PBXTargetDependency */,
+			);
+			name = NumberCounterTests;
+			productName = NumberCounterTests;
+			productReference = 128313771BC1BB3400B55886 /* NumberCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		128313811BC1BB3400B55886 /* NumberCounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128313911BC1BB3400B55886 /* Build configuration list for PBXNativeTarget "NumberCounterUITests" */;
+			buildPhases = (
+				1283137E1BC1BB3400B55886 /* Sources */,
+				1283137F1BC1BB3400B55886 /* Frameworks */,
+				128313801BC1BB3400B55886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128313841BC1BB3400B55886 /* PBXTargetDependency */,
+			);
+			name = NumberCounterUITests;
+			productName = NumberCounterUITests;
+			productReference = 128313821BC1BB3400B55886 /* NumberCounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		128313561BC1BB3400B55886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sterna-Airlines";
+				TargetAttributes = {
+					1283135D1BC1BB3400B55886 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					128313761BC1BB3400B55886 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 1283135D1BC1BB3400B55886;
+					};
+					128313811BC1BB3400B55886 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 1283135D1BC1BB3400B55886;
+					};
+				};
+			};
+			buildConfigurationList = 128313591BC1BB3400B55886 /* Build configuration list for PBXProject "NumberCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 128313551BC1BB3400B55886;
+			productRefGroup = 1283135F1BC1BB3400B55886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1283135D1BC1BB3400B55886 /* NumberCounter */,
+				128313761BC1BB3400B55886 /* NumberCounterTests */,
+				128313811BC1BB3400B55886 /* NumberCounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1283135C1BC1BB3400B55886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128313711BC1BB3400B55886 /* LaunchScreen.storyboard in Resources */,
+				1283136E1BC1BB3400B55886 /* Assets.xcassets in Resources */,
+				1283136C1BC1BB3400B55886 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128313751BC1BB3400B55886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128313801BC1BB3400B55886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1283135A1BC1BB3400B55886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128313691BC1BB3400B55886 /* ViewController.m in Sources */,
+				128313661BC1BB3400B55886 /* AppDelegate.m in Sources */,
+				128313631BC1BB3400B55886 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128313731BC1BB3400B55886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1283137C1BC1BB3400B55886 /* NumberCounterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1283137E1BC1BB3400B55886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128313871BC1BB3400B55886 /* NumberCounterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		128313791BC1BB3400B55886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1283135D1BC1BB3400B55886 /* NumberCounter */;
+			targetProxy = 128313781BC1BB3400B55886 /* PBXContainerItemProxy */;
+		};
+		128313841BC1BB3400B55886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1283135D1BC1BB3400B55886 /* NumberCounter */;
+			targetProxy = 128313831BC1BB3400B55886 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1283136A1BC1BB3400B55886 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1283136B1BC1BB3400B55886 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1283136F1BC1BB3400B55886 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128313701BC1BB3400B55886 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		128313891BC1BB3400B55886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1283138A1BC1BB3400B55886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1283138C1BC1BB3400B55886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NumberCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sterna-Airlines.NumberCounter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1283138D1BC1BB3400B55886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NumberCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sterna-Airlines.NumberCounter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1283138F1BC1BB3400B55886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NumberCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sterna-Airlines.NumberCounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberCounter.app/NumberCounter";
+			};
+			name = Debug;
+		};
+		128313901BC1BB3400B55886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NumberCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sterna-Airlines.NumberCounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberCounter.app/NumberCounter";
+			};
+			name = Release;
+		};
+		128313921BC1BB3400B55886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NumberCounterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sterna-Airlines.NumberCounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NumberCounter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		128313931BC1BB3400B55886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NumberCounterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sterna-Airlines.NumberCounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NumberCounter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		128313591BC1BB3400B55886 /* Build configuration list for PBXProject "NumberCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128313891BC1BB3400B55886 /* Debug */,
+				1283138A1BC1BB3400B55886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1283138B1BC1BB3400B55886 /* Build configuration list for PBXNativeTarget "NumberCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1283138C1BC1BB3400B55886 /* Debug */,
+				1283138D1BC1BB3400B55886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1283138E1BC1BB3400B55886 /* Build configuration list for PBXNativeTarget "NumberCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1283138F1BC1BB3400B55886 /* Debug */,
+				128313901BC1BB3400B55886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		128313911BC1BB3400B55886 /* Build configuration list for PBXNativeTarget "NumberCounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128313921BC1BB3400B55886 /* Debug */,
+				128313931BC1BB3400B55886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 128313561BC1BB3400B55886 /* Project object */;
+}
