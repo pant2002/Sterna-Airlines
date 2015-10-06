@@ -11,6 +11,14 @@
 int RandomValue;
 
 @interface ViewController : UIViewController
+{
+
+    IBOutlet UILabel *DisplayRandomValue;
+
+}
+- (IBAction)Button:(id)sender;
+
+
 
 {
     
